@@ -1,1 +1,21 @@
 // app global css in SCSS form
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: MiSansW;
+  src: url(./fonts/MiSansW_Light.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: MiSansW;
+  src: url(./fonts/MiSansW_Semibold.otf);
+  font-weight: bold;
+}
+
+body {
+  font-family: 'MiSansW', sans-serif;
+  font-weight: bold;
+}
